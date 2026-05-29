@@ -70,23 +70,6 @@ A contact management system using Python.
 - VS Code
 - Git & GitHub
 
-## 🚀 How to Run the Projects
-
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/CODSOFT.git
-```
-
-2. Open the project folder:
-```bash
-cd CODSOFT
-```
-
-3. Run any Python file:
-```bash
-python filename.py
-```
-
 ## 🎯 Learning Outcomes
 Through these projects, I improved my:
 - Python programming skills
