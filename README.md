@@ -91,16 +91,18 @@ python filename.py
 Through these projects, I improved my:
 - Python programming skills
 - Problem-solving ability
-- Logic building
+- Logic building 
 - GitHub project management
 - Command-line application development
 
 ## 📬 Contact
 **Allen**  
-Engineering Student – Artificial Intelligence & Data Science  
+Engineering Student – Artificial Intelligence & Data Science || Patent Holder
 
 Portfolio: https://allen745.github.io/  
 GitHub: https://github.com/allen745
+
+Linkedin: https://www.linkedin.com/in/allen-christian-708545409/
 
 ---
 
