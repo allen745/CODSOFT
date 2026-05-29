@@ -28,14 +28,8 @@ streamlit run app.py
 ```
 
 ## 🌐 Deploy on Render.com
-1. Push this folder to GitHub
-2. Go to render.com → New → Web Service
-3. Connect your GitHub repo
-4. Set build command: `pip install -r requirements.txt`
-5. Set start command: `streamlit run app.py --server.port $PORT --server.address 0.0.0.0`
-6. Deploy!
 
 ## 👨‍💻 Author
-Allen Stivanson Christian  
+Allen Stivanson Christian  || Patent Holder
 CodSoft Python Programming Internship — June 2026  
 Batch: JUNE BATCH C3
