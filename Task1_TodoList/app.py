@@ -201,17 +201,18 @@ else:
         overdue_badge = '<span class="badge" style="background:#fff0f0;color:#ff4b4b">⚠️ OVERDUE</span>' if is_overdue else ""
         desc_text  = f" | 📝 {task['description']}" if task.get('description') else ""
 
-        st.markdown(f"""
-        <div class="{card_class}" style="border-color:{p_color}">
-            <p class="task-title" style="{strike}">{done_icon}{task['title']}</p>
-            <div class="task-meta">
-                <span class="badge" style="background:{p_color}22;color:{p_color}">{task['priority'].upper()}</span>
-                <span class="badge" style="background:#f0f0ff;color:#667eea">{task['category']}</span>
-                {overdue_badge}
-                📅 Due: {due} | 🕐 Created: {task['created_at'][:10]}{desc_text}
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        card_html = (
+            f'<div class="{card_class}" style="border-color:{p_color}">'
+            f'<p class="task-title" style="{strike}">{done_icon}{task["title"]}</p>'
+            f'<div class="task-meta">'
+            f'<span class="badge" style="background:{p_color}22;color:{p_color}">{task["priority"].upper()}</span>'
+            f'<span class="badge" style="background:#f0f0ff;color:#667eea">{task["category"]}</span>'
+            f'{overdue_badge}'
+            f'📅 Due: {due} | 🕐 Created: {task["created_at"][:10]}{desc_text}'
+            f'</div>'
+            f'</div>'
+        )
+        st.markdown(card_html, unsafe_allow_html=True)
 
         c1, c2, c3, _ = st.columns([1.2, 1, 1, 4])
         with c1:
