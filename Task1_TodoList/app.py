@@ -84,7 +84,7 @@ st.markdown("""
     }
     .stat-card h2 { font-size: 2rem; margin: 0; }
     .stat-card p  { margin: 0; color: #666; font-size: 0.85rem; }
-    .task-card {
+    .task-card { color: #1a1a1a;
         background: white;
         border-radius: 12px;
         padding: 1rem 1.2rem;
@@ -92,7 +92,7 @@ st.markdown("""
         box-shadow: 0 2px 8px rgba(0,0,0,0.07);
         border-left: 5px solid;
     }
-    .task-title { font-size: 1.05rem; font-weight: 600; margin: 0 0 6px 0; }
+    .task-title { font-size: 1.05rem; font-weight: 600; margin: 0 0 6px 0; color: #1a1a1a; }
     .task-meta  { font-size: 0.82rem; color: #777; margin-top: 4px; }
     .badge {
         display: inline-block;
